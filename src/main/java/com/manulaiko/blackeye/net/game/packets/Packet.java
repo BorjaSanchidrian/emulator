@@ -38,5 +38,7 @@ public abstract class Packet
      *
      * @return Packet name
      */
-    public abstract String getName();
+    public String getName() {
+        return getClass().getSimpleName();
+    }
 }

@@ -22,15 +22,6 @@ import com.manulaiko.tabitha.exceptions.NotFound;
  */
 public class LoginRequest extends com.manulaiko.blackeye.net.game.packets.Packet
 {
-    /**
-     * Returns packet name
-     *
-     * @return Packet name
-     */
-    public String getName()
-    {
-        return "LoginRequest";
-    }
 
     /**
      * Handles the packet

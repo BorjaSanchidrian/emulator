@@ -66,12 +66,4 @@ public class ShipInitialization extends com.manulaiko.blackeye.net.game.packets.
 
         return this._packet.toString();
     }
-
-    /**
-     * Returns packet name
-     */
-    public String getName()
-    {
-        return "ShipInitialization";
-    }
 }

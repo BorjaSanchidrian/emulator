@@ -30,7 +30,9 @@ public abstract class Command
     /**
      * Returns packet name
      */
-    public abstract String getName();
+    public String getName() {
+        return getClass().getSimpleName();
+    }
 
     /**
      * Returns packet as a string
